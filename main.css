@@ -1,0 +1,93 @@
+:root {
+    --DefineBgColor: #fff;
+    --DefineNavbarColor: #F8F4F3;
+    --TextColor: #222;
+    --borderHighlightColor: #bcbcbc;
+    --EasyworkHighlightColor: #F4CFC6;
+    --EasyworkHighlight: #000;
+    --HoverHGbg: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sfpro", "sans-serif";
+    transition: 0.15s linear all;
+}
+
+body {
+    background-color: var(--DefineBgColor);
+    overflow: scroll;
+}
+
+nav {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 550px;
+    background-color: var(--DefineNavbarColor);
+    border-radius: 100px;
+}
+
+.navbarcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1.5rem;
+    height: 65px;
+}
+
+.nvtext {
+    display: block;
+    height: auto;
+    text-decoration: none;
+}
+
+.nvtext img {
+    width: 120px;
+    display: block;
+    height: auto;
+}
+
+.nvlinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nvlinks li {
+    list-style: none;
+}
+
+.nvlinks li a {
+    text-decoration: none;
+    color: var(--TextColor);
+    font-family: "lineseed", "sans-serif";
+    line-height: 65px;
+    border-bottom: solid 2px var(--borderHighlightColor);
+    display: block;
+}
+
+#HighlightTextcontent {
+    border: none;
+    background-color: var(--EasyworkHighlight);
+    color: var(--EasyworkHighlightColor);
+    line-height: 1.5;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    transform: translateX(10px);
+    transition: ease-out 0.3s all;
+}
+
+#HighlightTextcontent:hover {
+    color: #fff;
+    background-color: var(--HoverHGbg);
+}
+
+#HighlightTextcontent:active {
+    scale: 70%;
+}

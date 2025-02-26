@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Misans;
+    src: url(./SysFonts/MiSansThaiVF.ttf);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(./SysFonts/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: SFpro;
+    src: url(./SysFonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+    font-family: Lineseed;
+    src: url(./SysFonts/LINESeedSansTH_Rg.ttf);
+}
