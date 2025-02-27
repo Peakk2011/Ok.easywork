@@ -1,0 +1,49 @@
+Ok.easywork
+===========
+
+รายระเอียดเว็บไซต์นี้
+และการรับทํา **เว็บไซต์**
+
+> เว็บไซต์ตัวนี้ อยู่ในช่วงของการพัฒนา ยังไม่เสร็จ
+> เป็นเว็บไซต์เกียวกับบริการรับทําเว็บไซต์ รับออกแบบเว็บไซต์
+> โดยเว็บไซต์นี้ ใช้ React.js ในการพัฒนา สามารถติดต่อได้ดังนี้
+> และสามารถติดต่อได้ที่ [ok.easywork](https://www.instagram.com/ok.easywork/)
+
+    * ติดต่อจ้างทําเว็บไซต์
+    * ติดต่อออกแบบเว็บไซต์ Figma
+    * ติดต่อปรึกษาเรื่องการทําเว็บไซต์
+    * ติดต่อปรึกษาเรื่องการออกแบบเว็บไซต์
+    * ติดต่อรายระเอียดการรับทําเว็บไซต์
+    * หรือสิ่งที่เกียวกับเรื่องการรับทําเว็บไซต์ และการออกแบบ
+
+บริการรับทําเว็บไซต์ตอนนี้:
+
+    1. รับออกแบบเว็บไซต์
+    2. รับทําเว็บไซต์หน้าเดียว
+    3. รับทําเว็บไซต์หลายหน้า
+
+เกียวกับเว็บไซต์นี้
+------------
+
+เว็บไซต์นี้เป็น Project ของ ok.easywork
+ทุกคนสามารถดูได้หรือปรับแต่งได้ว่าตัวโค้ดเป็นยังไง
+เพื่อที่จะให้การตัดสินใจของคุณง่ายขึ้นในการจ้าง
+
+สามารถเริ่มต้นรันเว็บไซต์นี้ได้โดยพิมพ์คําสั่งต่อไปนี้
+
+`npm install`
+`npm run dev`
+
+[ok.easywork](https://www.instagram.com/ok.easywork/)
+
+CRADIT เครืองมือที่ทํา
+=================
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
